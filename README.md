@@ -1,7 +1,6 @@
 # Alamin One Dark Pro
 
 [![Visual Studio Marketplace Version](https://img.shields.io/badge/VS%20Code-Theme-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
-[![npm version](https://img.shields.io/npm/v/alamin-one-dark-pro.svg?color=cb3837&logo=npm)](https://www.npmjs.com/package/alamin-one-dark-pro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A refined, modern, and eye-friendly dark theme for **Visual Studio Code** and **Antigravity IDE**, inspired by the iconic One Dark Pro aesthetic with carefully retuned contrast, vibrant syntax tokens, and unified workbench chrome.
@@ -21,7 +20,6 @@ A refined, modern, and eye-friendly dark theme for **Visual Studio Code** and **
 - **Eye-Care Contrast**: Designed for comfortable marathon coding sessions with reduced glare.
 - **Accurate Token Hierarchy**: Distinct colors for functions, control keywords, variables, types, and strings to help you scan code effortlessly.
 - **Cohesive UI Chrome**: Seamlessly styled editor, activity bar, sidebar, tabs, terminal, breadcrumbs, and floating dialogs.
-- **Multi-Platform**: Available as an IDE extension and an npm design-token package for web and frontend projects.
 
 ---
 
@@ -54,61 +52,21 @@ Optimized with granular TextMate scopes for modern language stacks:
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 Installation
 
-### Method 1: In Visual Studio Code / Antigravity IDE
-
-#### From Marketplace:
-1. Open the Extensions view (`Ctrl + Shift + X` or `Cmd + Shift + X`).
+### From Marketplace
+1. Open the Extensions view in VS Code / Antigravity (`Ctrl + Shift + X` or `Cmd + Shift + X`).
 2. Search for **`Alamin One Dark Pro`**.
 3. Click **Install**.
 4. Press `Ctrl + K Ctrl + T` and select **Alamin One Dark Pro**.
 
-#### From VSIX:
+### From VSIX Package
 1. Download or locate `alamin-one-dark-pro-1.0.0.vsix`.
-2. Run in terminal:
+2. In your terminal, run:
    ```bash
    code --install-extension alamin-one-dark-pro-1.0.0.vsix
    ```
-   *(Or click `...` in the Extensions view → **Install from VSIX...**)*.
-
----
-
-### Method 2: As an npm Design Token Package
-
-Install via npm:
-
-```bash
-npm install alamin-one-dark-pro
-```
-
-Import palette colors directly into your web, React, Tailwind, or Monaco Editor projects:
-
-```javascript
-// CommonJS
-const { palette, theme } = require('alamin-one-dark-pro');
-
-console.log(palette.background); // #282c34
-console.log(palette.blue);       // #61afef
-```
-
-```typescript
-// TypeScript / ESM
-import { palette, theme } from 'alamin-one-dark-pro';
-
-// Example: Tailwind CSS extension
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        editorBg: palette.background,
-        accent: palette.purple,
-        codeString: palette.green
-      }
-    }
-  }
-};
-```
+   *(Or in the Extensions view, click the `...` menu in the top-right corner → select **Install from VSIX...**)*.
 
 ---
 
