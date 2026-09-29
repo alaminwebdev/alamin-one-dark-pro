@@ -1,0 +1,49 @@
+{
+  "name": "alamin-one-dark-pro",
+  "displayName": "Alamin One Dark Pro",
+  "description": "A refined, eye-friendly One Dark Pro theme for VS Code and Antigravity IDE, ready for npm and editor usage.",
+  "version": "1.0.0",
+  "publisher": "alamin",
+  "author": "Alamin",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "themes",
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "vscode-theme",
+    "one-dark-pro",
+    "alamin",
+    "color-theme",
+    "dark-theme",
+    "syntax-highlighting"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alamin One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alamin-one-dark-pro-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node -e \"console.log('Testing theme export:', Object.keys(require('./index.js')))\""
+  }
+}
