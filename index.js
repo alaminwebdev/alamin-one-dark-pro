@@ -1,11 +1,11 @@
 const theme = require('./themes/alamin-one-dark-pro-color-theme.json');
 
 const palette = {
-  background: '#282c34',
+  background: '#282a36',
   foreground: '#abb2bf',
-  subtle: '#21252b',
-  selection: '#3e4451',
-  lineHighlight: '#2c313a',
+  subtle: '#21222c',
+  selection: '#44475a',
+  lineHighlight: '#2f3242',
   comment: '#5c6370',
   red: '#e06c75',
   green: '#98c379',
@@ -15,7 +15,7 @@ const palette = {
   cyan: '#56b6c2',
   orange: '#d19a66',
   white: '#ffffff',
-  black: '#181a1f'
+  black: '#191a21'
 };
 
 function activate(context) {}
