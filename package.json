@@ -13,7 +13,8 @@
     "index.js",
     "index.d.ts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "images"
   ],
   "keywords": [
     "vscode-theme",
