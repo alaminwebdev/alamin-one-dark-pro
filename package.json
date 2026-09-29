@@ -6,6 +6,10 @@
   "publisher": "alamin",
   "author": "Alamin",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohammadalamin/alamin-one-dark-pro"
+  },
   "main": "./index.js",
   "types": "./index.d.ts",
   "files": [
