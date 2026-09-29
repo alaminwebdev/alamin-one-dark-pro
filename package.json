@@ -44,6 +44,7 @@
     ]
   },
   "scripts": {
-    "test": "node -e \"console.log('Testing theme export:', Object.keys(require('./index.js')))\""
+    "test": "node -e \"console.log('Testing theme export:', Object.keys(require('./index.js')))\"",
+    "deploy-local": "powershell -Command \"$d = @('$HOME\\.vscode\\extensions\\alamin-one-dark-pro', '$HOME\\.antigravity\\extensions\\alamin-one-dark-pro', '$HOME\\.antigravity-ide\\extensions\\alamin-one-dark-pro'); foreach ($p in $d) { if (Test-Path (Split-Path $p)) { Copy-Item -Recurse -Force 'D:\\alamin-one-dark-pro\\*' $p; Write-Output ('Synced to: ' + $p) } }\""
   }
 }
